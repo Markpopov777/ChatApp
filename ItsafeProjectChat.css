@@ -1,0 +1,58 @@
+.container {
+  display:  center;
+  align-items: center;
+  height: 35vh;
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 200px;
+  padding: 2px;
+  margin-top:10px
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+
+
+.panel-body{
+    margin-top: 0px;
+    height : 0px;
+    overflow: center;
+}
+
+
+
+.panel-group {
+
+  flex-direction: column;
+  margin-top: -100px;
+  margin-left: 600px;
+  height: 230px;
+  width: 1000px;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 3px;
+  justify-content: space-between;
+  margin-buttons: 0px;
+
+}
+
+
+.input-group{
+
+   display: center;
+   flex-direction: column;
+   margin-top: -50px;
+   margin-left: 800px;
+   height: 30px;
+   width: 1000px;
+
+}
+
+
+
+
+
+
+

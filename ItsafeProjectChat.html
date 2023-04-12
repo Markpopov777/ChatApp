@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./ItsafeProjectChat.css">
+</head>
+<body>
+
+<!------nvbar-------->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                </button>
+                <a class="navbar-brand" href="#">Forum</a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!------account info-------->
+    <div class="container">
+        <div>
+            <div class="panel panel-default">
+                <div
+                        class="panel-heading">Account info
+
+                </div>
+            </div>
+
+    <!------username pass-------->
+
+            <form>
+                <div class="panel-body">
+                    <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="username" class="form-control" id="username" placeholder="">
+                </div>
+                    <div class="form-group">
+                        <label for="ipadress">Ip addres:</label>
+                        <input type="ipadress" class="form-control" id="ipadress" placeholder="">
+                    </div>
+
+                </div>
+            </form>
+    </div>
+
+
+<!------chat-------->
+        <div class="panel-group">
+            <div class="panel panel-default">
+                    <div class="panel-heading">Chat History</div>
+                    <!-- Left-aligned media object -->
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="./img/img_avatar1.png" class="media-object" style="width:60px">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Left-aligned</h4>
+                            <p>Hey how are you?</p>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <!-- Right-aligned media object -->
+                    <div class="media">
+                        <div class="media-body">
+                            <h4 class="media-heading">Right-aligned</h4>
+                            <p>Im good</p>
+                        </div>
+                        <div class="media-right">
+                            <img src="./img/img_avatar1.png" class="media-object" style="width:60px">
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+<!------Message line-------->
+ <form>
+        <div class="input-group">
+            <span class="input-group-addon">Text</span>
+            <input id="msg" type="text" class="form-control" name="msg" placeholder="Write your message here...">
+        </div>
+ </form>
+
+
+
+
+
+
+</body>
+</html>
